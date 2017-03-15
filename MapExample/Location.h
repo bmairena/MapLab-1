@@ -9,7 +9,7 @@ public:
 	Location(std::string name);
 	~Location();
 	std::string DisplayLocationInfo();
-
+	std::string getName();
 	Location *North = nullptr;
 	Location *South = nullptr;
 	Location *East = nullptr;
