@@ -108,6 +108,7 @@ void GoWest(Map &map)
 }
 void GoHome(Map &map)
 {
-
+	system("cls");
+	map.goHome();
 
 }

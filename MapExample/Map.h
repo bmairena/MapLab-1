@@ -4,6 +4,7 @@
 class Map
 {
 private:
+
 	std::stack<Location *> _path;
 	
 public:
@@ -11,7 +12,7 @@ public:
 	~Map();
 
 	Location * CurrentLocation = nullptr;
-	std::string goHome();
+	void goHome();
 	void Move(Location *newLocation);
 };
 
